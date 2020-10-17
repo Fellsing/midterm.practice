@@ -12,14 +12,7 @@ export class CountryDetailsComponent implements OnInit {
   country: Country;
   dis:boolean = true;
   title = '';
-  // @ts-ignore
-  ss;
-  inputHandler(event: any): void{
-    const value = event.target.value;
-    console.log(value);
-    this.title = value;
-    this.ss = this.title.length;
-  }
+  //@ts-ignore
 
   constructor() { }
 
